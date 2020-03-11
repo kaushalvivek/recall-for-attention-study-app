@@ -1,7 +1,7 @@
 {
   "apple": [
     {
-      "question": "As per the article read, where is Apple planning on making iPhones in India?",
+      "question": "As per the article on Apple, where is Apple planning on making iPhones in India?",
       "options": [
         "New Delhi",
         "Hyderabad",
@@ -11,7 +11,7 @@
       "correct": "Bangalore"
     },
     {
-      "question": "As per the article read, which of the following companies would be a collaborator in Apple's new factories in India?",
+      "question": "As per the article on Apple, which of the following companies would be a collaborator in Apple's new factories in India?",
       "options": [
         "Toshiba",
         "Jabil",
@@ -21,7 +21,7 @@
       "correct": "Wistron"
     },
     {
-      "question": "According to the article, what percentage of raw material must be locally sourced, as mandated by Indian laws?",
+      "question": "According to the article on Apple, what percentage of raw material must be locally sourced, as mandated by Indian laws?",
       "options": [
         "40%",
         "50%",
@@ -31,7 +31,7 @@
       "correct": "30%"
     },
     {
-      "question": "As per the article, India is projected to overtake which country as the world's second largest smartphone market?",
+      "question": "As per the article on Apple, India is projected to overtake which country as the world's second largest smartphone market?",
       "options": [
         "U.S.A.",
         "China",
@@ -43,7 +43,7 @@
   ],
   "volcano": [
     {
-      "question": "As per the article read, in which of the following years did the Barren Island Volcano see a major eruption?",
+      "question": "As per the article on India's active volcano, in which of the following years did the Barren Island Volcano see a major eruption?",
       "options": [
         "2005",
         "2009",
@@ -53,7 +53,7 @@
       "correct": "1991"
     },
     {
-      "question": "As per the article, scientists from which Indian agency/institute were observing the volcano?",
+      "question": "As per the article on India's active volcano, scientists from which Indian agency/institute were observing the Barren Island volcano?",
       "options": [
         "Indian Meteorological Department",
         "National Institute of Oceanography",
@@ -73,7 +73,7 @@
       "correct": "Dr. Abhay Madhulkar"
     },
     {
-      "question": "As per the article, where is the volcano located?",
+      "question": "As per the article on India's active volcano, in which island group is the Barren Island volcano located?",
       "options": [
         "Lakshadweep",
         "Daman & Diu",
@@ -85,7 +85,7 @@
   ],
   "law": [
     {
-      "question": "As per the article, Yogendra Vasupal and Sachit Singhi  are the founder of which company?",
+      "question": "As per the article on company laws, Yogendra Vasupal and Sachit Singhi  are the founder of which company?",
       "options": [
         "Zostel",
         "Trivago",
@@ -95,7 +95,7 @@
       "correct": "Stayzilla"
     },
     {
-      "question": "When was Fabmall.com founded by K Vaitheeswaran?",
+      "question": "As per the article on company laws, when was Fabmall.com founded by K Vaitheeswaran?",
       "options": [
         "1995",
         "1999",
@@ -105,7 +105,7 @@
       "correct": "1999"
     },
     {
-      "question": "In November 2015, Gaurav Chaudhary, the co-founder of which startup was kept hostage for over two days sacked employees?",
+      "question": "As per the article on company laws, in November 2015, Gaurav Chaudhary, the co-founder of which startup was kept hostage for over two days by sacked employees?",
       "options": [
         "TinyOwl",
         "Sabzi.com",
@@ -115,7 +115,7 @@
       "correct": "TinyOwl"
     },
     {
-      "question": "As per the article, this Bengaluru-based logistics startup office was vandalised by its delivery boys after non-payment of salaries for months. Which startup is it?",
+      "question": "As per the article on company laws, this Bengaluru-based logistics startup office was vandalised by its delivery boys after non-payment of salaries for months. Which startup is it?",
       "options": [
         "Sabzi.com",
         "Townrush",
@@ -127,7 +127,7 @@
   ],
   "justice": [
     {
-      "question": "As per teh article, which terror outfit were primary accused of the Hyderabad blast associated with?",
+      "question": "As per the article on the trial of Hyderabad Blast accused, which terror outfit were primary accused of the Hyderabad blast associated with?",
       "options": [
         "Indian Mujahideen",
         "Lashkar-e-Taiba",
@@ -137,7 +137,7 @@
       "correct": "Indian Mujahideen"
     },
     {
-      "question": "As per the article, how many people were killed in the 2013 Hyderabad Blast?",
+      "question": "As per the article on the trial of Hyderabad Blast accused, how many people were killed in the 2013 Hyderabad Blast?",
       "options": [
         "4",
         "18",
@@ -147,7 +147,7 @@
       "correct": "18"
     },
     {
-      "question": "As per the article, who was the absconding primary accused in the Hyderabad blast case?",
+      "question": "As per the article on the trial of Hyderabad Blast accused, who was the absconding primary accused in the Hyderabad blast case?",
       "options": [
         "Mohamed Rafeeq",
         "Aneeq Shafique Sayeed",
@@ -157,7 +157,7 @@
       "correct": "Riyaz Bhatkal"
     },
     {
-      "question": "As per the article, which vehicle was used to mount the bombs?",
+      "question": "As per the article on the trial of Hyderabad Blast accused, which vehicle was used to mount the bombs?",
       "options": [
         "Bicycles",
         "Omni-van",
@@ -169,7 +169,7 @@
   ],
   "train": [
     {
-      "question": "As per the article, how many views did the video of the woman escaping an approaching train have?",
+      "question": "As per the article on the woman who evaded an oncoming train, how many views did the video of the woman escaping an approaching train have?",
       "options": [
         "over 10 million",
         "over 1 million",
@@ -179,7 +179,7 @@
       "correct": "over 5 million"
     },
     {
-      "question": "As per the article, where was the video shared?",
+      "question": "As per the article on the woman who evaded an oncoming train, where was the video of the incident shared?",
       "options": [
         "YouTube",
         "circulated on WhatsApp",
@@ -189,7 +189,7 @@
       "correct": "YouTube"
     },
     {
-      "question": "As per the article, what was the explanation suggested for how the woman ended up on the tracks?",
+      "question": "As per the article on the woman who evaded an oncoming train, what was the explanation suggested for how the woman ended up on the tracks?",
       "options": [
         "she fell while crossing them",
         "she got stuck while picking up her fallen luggage",
@@ -199,7 +199,7 @@
       "correct": "she fell while crossing them"
     },
     {
-      "question": "In the article, which of the following adjectives were used in the article to describe the woman?",
+      "question": "As per the article on the woman who evaded an oncoming train, which of the following adjectives were used in the article to describe the woman?",
       "options": [
         "Mischievous",
         "Intelligent",
@@ -211,17 +211,17 @@
   ],
   "delhi": [
     {
-      "question": "According to the article, what is the term used to refer to the newly appointed workers against open defecation?",
+      "question": "As per the article on open defecation in Delhi, what is the term used to refer to the newly appointed workers against open defecation?",
       "options": [
         "Swachh Sewak",
         "Dilli Sewak",
         "Swachh Karmachari",
-        "Dilli Karmachari"
+        "Swastha Karmachari"
       ],
       "correct": "Swachh Sewak"
     },
     {
-      "question": "According to the article, how would the new appointees ensure a defecation free Delhi?",
+      "question": "As per the article on open defecation in Delhi,, how would the new appointees ensure a defecation free Delhi?",
       "options": [
         "they will escort the offenders to the nearest police station",
         "they will collect a fine of Rs.1,000 from offenders",
@@ -231,7 +231,7 @@
       "correct": "they will blow a whistle and direct them to the nearest public toilet"
     },
     {
-      "question": "What was the deadline set by India's PM for eradication of open-defecation?",
+      "question": "As per the article on open defecation in Delhi, what was the deadline set by India's PM for eradication of open-defecation in India?",
       "options": [
         "October, 2019",
         "January, 2020",
@@ -241,7 +241,7 @@
       "correct": "October, 2019"
     },
     {
-      "question": "As per the article, open defecation leads to high rates of deaths in children under 5, from which of the following complications?",
+      "question": "As per the article on open defecation in Delhi, the practice leads to high rates of deaths in children under 5, from which of the following complications?",
       "options": [
         "Diarrhoea",
         "Influenza",

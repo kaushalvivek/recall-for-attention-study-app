@@ -61,7 +61,6 @@ def launch():
     articles.append('justice')
   if request.args.get('train') == '1':
     articles.append('train')
-  print(articles)
   return render_template('launch.html')
 
 @app.route('/get_uid')
@@ -82,7 +81,9 @@ def recall_test():
   questions_list = []
   for i in articles:
     questions_list.append(json_questions[i])
+  print(questions_list)
   questions = [j for i in questions_list for j in i]
+  random.shuffle(questions)
   return render_template('recall.html', questions=questions)
 
 if __name__ == "__main__":
