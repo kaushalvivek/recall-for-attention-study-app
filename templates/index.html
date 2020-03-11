@@ -21,24 +21,76 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h1 class="mt-5">Hello!</h1>
-        <p class="lead">Thank you for taking the time to participate in this survey. Your anonymity and privacy are of
-          utmost importance to us.<br /> At no point in this will you be asked to reveal any identifying information
-          about
-          yourself. Your responses will be used solely for the purposes of research.</p>
-        <p class="lead">
-          We are investigating user interests in journalism.
-          On the following page, you will be given a few news headlines. Feel free to click on any of them to read the
-          corresponding article, as you would on any news website.
-        </p>
+        <h1 class="mt-5">Ask the supervisor to fill this page.</h1>
+        <p class="lead">Check the required items:</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="train">
+          <label class="form-check-label" for="train">train</label>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="justice">
+          <label class="form-check-label" for="justice">justice</label>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="apple">
+          <label class="form-check-label" for="apple">apple</label>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="delhi">
+          <label class="form-check-label" for="delhi">delhi</label>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="volcano">
+          <label class="form-check-label" for="volcano">volcano</label>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="law">
+          <label class="form-check-label" for="law">law</label>
+        </div>
       </div>
     </div>
     <br />
-    <a href="{{ url_for('launch') }}">
-      <button type="button" class="btn btn-primary">Continue</button>
-    </a>
+    <button type="button" class="btn btn-primary" onclick="buttonclick()">Continue</button>
   </div>
 
 </body>
+<script>
+  function buttonclick() {
+    var law = 0, train = 0, volcano = 0, delhi = 0, apple = 0, justice = 0;
+    if ($('#law').is(":checked")) law = 1;
+    if ($('#train').is(":checked")) train = 1;
+    if ($('#volcano').is(":checked")) volcano = 1;
+    if ($('#delhi').is(":checked")) delhi = 1;
+    if ($('#apple').is(":checked")) apple = 1;
+    if ($('#justice').is(":checked")) justice = 1;
+
+    var url = '/launch?law=' + law + '&train=' + train + '&volcano=' + volcano + '&delhi=' + delhi + '&apple=' + apple + '&justice=' + justice;
+    window.location = url;
+  }
+</script>
 
 </HTML>
