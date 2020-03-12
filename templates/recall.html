@@ -59,10 +59,12 @@
       var selection = $(select).children(":selected").text();
       response.push(correct.localeCompare(selection));
     });
+    url = "/save_to_log?"
     var i = 0;
     for (i = 0; i < id.length; i++) {
-      console.log(id[i] + ' : ' + response[i]);
-    };
+      url = url.concat(id[i] + '=' + response[i] + '&');
+    }
+    window.location = url;
   }
 </script>
 

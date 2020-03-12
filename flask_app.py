@@ -24,14 +24,14 @@ articles_visited = []
 
 #-------------------------------------------------
 # model for storage of page transactions
-class Transactions(db.Model):
-  tran_id = db.Column(db.String, primary_key=True)
-  u_id = db.Column(db.String)
-  article_id = db.Column(db.String)
-  position = db.Column(db.Integer)
-  time_before_click = db.Column(db.String)
-  time_on_page = db.Column(db.String)
-  sequence = db.Column(db.Integer)
+class Recall(db.Model):
+  u_id = db.Column(db.String, primary_key=True)
+  article_1 = db.Column(db.String)
+  score_1 = db.Column(db.Integer)
+  article_2 = db.Column(db.String)
+  score_2 = db.Column(db.Integer)
+  article_3 = db.Column(db.String)
+  score_3 = db.Column(db.Integer)
 #-------------------------------------------------
 articles = []
 
@@ -91,6 +91,28 @@ def recall_test():
   for i in questions:
     random.shuffle(i['options'])
   return render_template('recall.html', questions=questions, articles=articles)
+
+@app.route('/save_to_log')
+def save_to_log():
+  incoming_ids = []
+  score = [0 for i in range(0,len(articles))]
+  for i in articles:
+    for j in range(0,4):
+      incoming_ids.append(i+str(j))
+  responses = []
+  for i in incoming_ids:
+    responses.append(request.args.get(i))
+  for i in range (len(articles)):
+    for j in range (len(incoming_ids)):
+      if articles[i] in incoming_ids[j] and responses[j] == '0':
+        score[i]+=1
+
+  new_recall = Recall(u_id=u_id,article_1=articles[0],\
+  score_1=score[0],article_2=articles[1],score_2=score[1], article_3 = articles[2], score_3 = score[2])
+  db.session.add(new_recall)
+  db.session.commit()
+  return redirect('/end')
+
 
 if __name__ == "__main__":
   app.run(debug=True)
