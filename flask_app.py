@@ -78,13 +78,19 @@ def end():
 @app.route('/recall_test')
 def recall_test():
   global articles
+  global questions
+  questions = []
   questions_list = []
   for i in articles:
-    questions_list.append(json_questions[i])
-  print(questions_list)
-  questions = [j for i in questions_list for j in i]
+    questions_list.append({'id': i, 'questions': json_questions[i]})
+  for i in questions_list:
+    for j in range(0,4):
+      questions.append({'id':i['id']+str(j),'question':i['questions'][j]['question'],\
+       'options':i['questions'][j]['options'],'correct':i['questions'][j]['correct']})
   random.shuffle(questions)
-  return render_template('recall.html', questions=questions)
+  for i in questions:
+    random.shuffle(i['options'])
+  return render_template('recall.html', questions=questions, articles=articles)
 
 if __name__ == "__main__":
   app.run(debug=True)
